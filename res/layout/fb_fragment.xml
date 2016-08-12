@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:map="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FF0000"
+              android:weightSum="7">
+
+    <!-- to show what the parent is -->
+
+    <LinearLayout
+            android:background="#000000"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1" android:gravity="left">
+
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:layout_gravity="center|top" android:text="Panic ( Distress )" android:textColor="#fffdfd"
+                android:background="#f50707" android:layout_margin="5dp" android:padding="3dp"
+                android:id="@+id/DistressBtn"/>
+
+    </LinearLayout>
+
+
+
+    <!--    ======================================Linear Layout for Maps=======================================================       -->
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:map="http://schemas.android.com/apk/res-auto"
+                  android:background="@drawable/map"
+                  android:layout_height="0dp"
+                  android:layout_width="match_parent"
+                  android:layout_weight="5" android:gravity="center">
+
+        <fragment android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:id="@+id/the_map"
+                  android:name="com.google.android.gms.maps.MapFragment"
+                  map:cameraTilt="45"
+                  map:cameraZoom="14"/>
+
+    </LinearLayout>
+
+
+
+
+    <!--    ======================================End of Linear Layout for Maps=======================================================       -->
+
+    <LinearLayout android:id="@+id/row_4"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingBottom="2dp">
+
+        <LinearLayout android:id="@+id/startsession"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content"
+                      android:paddingRight="3dp"
+                      android:layout_width="fill_parent"
+                      android:layout_weight="1" >
+
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content"  android:id="@+id/lngt"
+                    android:text="Music" android:background="#ff000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/stopsession"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                      android:paddingRight="3dp"
+                      android:layout_weight="1" android:background="@drawable/border">
+
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Pause Session"
+                    android:background="#ff000000" android:id="@+id/lat"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/row_2"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingBottom="2dp">
+
+        <LinearLayout android:id="@+id/startsession"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content"
+                      android:paddingRight="3dp"
+                      android:layout_width="fill_parent"
+                      android:layout_weight="1" android:background="@drawable/border">
+
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content"  android:id="@+id/sessionStart"
+                    android:text="Start Session" android:background="#ff000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/stopsession"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                      android:paddingRight="3dp"
+                      android:layout_weight="1" android:background="@drawable/border">
+
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stop Session"
+                android:background="#ff000000"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:id="@+id/stopsession"
+                      android:orientation="vertical"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+
+                      android:layout_weight="1" android:background="#000000">
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageButton" android:layout_weight="1" android:background="@drawable/music_notes"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <!-- Linear Layout for Displaying Calories Burned-->
+
+    <LinearLayout
+            android:background="#000000"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1" android:gravity="right">
+
+
+        <LinearLayout android:id="@+id/row_3"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingBottom="5dp">
+
+            <LinearLayout android:id="@+id/box_pace"
+                          android:orientation="vertical"
+                          android:layout_height="wrap_content"
+                          android:paddingRight="3dp"
+                          android:layout_width="fill_parent"
+                          android:layout_weight="1" android:background="@drawable/border">
+
+                <TextView android:id="@+id/pace_value"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="2dp"
+                          android:text="10" android:textColor="#ffffff"/>
+                <TextView android:id="@+id/pace_units"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="steps/minute"
+                          android:paddingBottom="5dp"
+                          android:background="#000000" android:paddingTop="2dp"
+                          android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/box_speed"
+                          android:orientation="vertical"
+                          android:paddingRight="3dp"
+                          android:layout_height="wrap_content"
+                          android:layout_width="fill_parent"
+                          android:layout_weight="1" android:background="@drawable/border">
+
+                <TextView android:id="@+id/speed_value"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="2dp"
+                          android:text="1500" android:textColor="#ffffff"/>
+                <TextView android:id="@+id/speed_units"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="km/hr "
+                          android:paddingBottom="5dp"
+                          android:background="#000000" android:paddingTop="2dp"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/box_calories"
+                          android:orientation="vertical"
+                          android:layout_height="wrap_content"
+                          android:layout_width="fill_parent"
+                          android:layout_weight="1">
+
+                <TextView android:id="@+id/calories_value"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="2dp"
+                          android:text="12000" android:textColor="#ffffff"/>
+                <TextView android:id="@+id/calories_units"
+                          android:gravity="center_horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="calories_burned"
+                          android:paddingBottom="5dp"
+                          android:background="#000000" android:paddingTop="2dp"
+                          android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

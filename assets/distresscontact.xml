@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<company>
+
+    <contact1>
+        <name>Roston</name>
+        <email>roston.pereira9@gmail.com</email>
+        <phonenumber>7459001520</phonenumber>
+    </contact1>
+
+    <contact2>
+        <name>Roston</name>
+        <email>roston.pereira9@gmail.com</email>
+        <phonenumber>7459001520</phonenumber>
+    </contact2>
+
+    <contact3>
+        <name></name>
+        <email></email>
+        <phonenumber></phonenumber>
+    </contact3>
+
+    <contact4>
+        <name></name>
+        <email></email>
+        <phonenumber></phonenumber>
+    </contact4>
+
+    <contact5>
+        <name></name>
+        <email></email>
+        <phonenumber></phonenumber>
+    </contact5>
+
+
+</company>

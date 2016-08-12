@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="2">
+    <LinearLayout
+            android:background="@drawable/logo"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+            android:background="#ff83ff4b"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+        <!-- Layout for menu -->
+        <LinearLayout android:gravity="center"
+                      android:background="#000000"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_weight="2" android:weightSum="3">
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                         android:id="@+id/tableLayout1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" android:baselineAligned="false" android:orientation="vertical"
+                         android:weightSum="3">
+
+                <!-- Button 1 -->
+                <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" android:layout_weight="1">
+
+                    <Button android:id="@+id/button1"
+                            android:text="Start" android:layout_weight="1" android:onClick="onNew"
+                            android:background="@drawable/speaker"
+                            android:textColor="#ffffff" android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+                            android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+                </TableRow>
+                <!-- End of button 1 -->
+
+                <!-- Button 2 -->
+                <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" android:layout_weight="1">
+
+                    <Button android:id="@+id/button2"
+                            android:text="          Settings          " android:layout_weight="1"
+                            android:textAlignment="inherit" android:textColor="#000000"
+                            android:layout_height="wrap_content" android:background="@drawable/middle_button"
+                            android:layout_width="fill_parent" android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp" android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"  android:onClick="onsetting"/>
+                </TableRow>
+                <!-- End of button 2 -->
+
+
+                <!-- Button 3 -->
+                <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" android:layout_weight="1">
+
+                    <Button android:id="@+id/button3" android:onClick="onClick"
+                            android:text="Quit" android:layout_weight="1" android:background="@drawable/speaker"
+                            android:layout_margin="8dp" android:textColor="#ffffff" android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+                            android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+                </TableRow>
+                <!-- End of button 3 -->
+            </TableLayout>
+
+        </LinearLayout>
+        <!-- Layout for menu -->
+
+    </LinearLayout>
+
+
+</LinearLayout>

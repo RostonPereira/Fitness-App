@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center">
+
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2">
+
+
+   <TableRow android:layout_height="0dp" android:layout_width="wrap_content" android:layout_weight="1" >
+
+    <NumberPicker android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/numberPicker1"
+                  android:gravity="center" android:layout_gravity="center">
+
+    </NumberPicker>
+
+   </TableRow>
+
+   <TableRow android:layout_height="0dp" android:layout_width="wrap_content" android:layout_weight="1">
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ageOk"
+                android:text="OK"/>
+
+    </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

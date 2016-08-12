@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:weightSum="6" android:background="@drawable/back3">
+
+
+
+            <!--=================================Start For contact 1===========================-->
+
+
+
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:id="@+id/textView1" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact1name" android:layout_weight="2"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail :"
+                        android:id="@+id/textView2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact1email" android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number :"
+                        android:id="@+id/textView3" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact1phone" android:layout_weight="2"/>
+            </TableRow>
+
+
+
+
+            <!--=================================End For contact 1===========================-->
+
+
+   <!-- ============================================================================================================================================= -->
+
+            <!--=================================Start For contact 2===========================-->
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:id="@+id/textView4" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact2name" android:layout_weight="2"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail :"
+                        android:id="@+id/textView5" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact2email" android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number :"
+                        android:id="@+id/textView6" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact2phone" android:layout_weight="2"/>
+            </TableRow>
+
+
+            <!--=================================End For contact 2===========================-->
+
+   <!-- ============================================================================================================================================= -->
+
+
+            <!--=================================Start For contact 3===========================-->
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:id="@+id/textView7" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact3name" android:layout_weight="2"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail :"
+                        android:id="@+id/textView8" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact3email" android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number :"
+                        android:id="@+id/textView9" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact3phone" android:layout_weight="2"/>
+            </TableRow>
+
+
+            <!--=================================End For contact 3===========================-->
+
+            <!-- ============================================================================================================================================= -->
+
+
+            <!--=================================Start For contact 4===========================-->
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:id="@+id/textView10" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact4name" android:layout_weight="2"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail :"
+                        android:id="@+id/textView11" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact4email" android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number :"
+                        android:id="@+id/textView12" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact4phone" android:layout_weight="2"/>
+            </TableRow>
+
+
+            <!--=================================End For contact 4===========================-->
+
+            <!-- ============================================================================================================================================= -->
+
+
+            <!--=================================Start For contact 5===========================-->
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+                      android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:id="@+id/textView13" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact5name" android:layout_weight="2"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail :"
+                        android:id="@+id/textView14" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact5email" android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number :"
+                        android:id="@+id/textView15" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/contact5phone" android:layout_weight="2"/>
+            </TableRow>
+
+
+            <!--=================================End For contact 5===========================-->
+
+            <!-- ============================================================================================================================================= -->
+
+            <TableRow android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+
+                <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="2"
+                        android:layout_margin="10dp" android:text="SAVE" android:textStyle="bold|italic" android:onClick="update"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+</ScrollView>
+
